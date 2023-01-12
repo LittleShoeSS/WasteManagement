@@ -37,6 +37,7 @@
     "title": "Waste Management",
     "widgets": [
         "./widgets/63bc73b9cad8850035b9d179/widget.json",
-        "./widgets/63bc7ba2cad8850035b9d182/widget.json"
+        "./widgets/63bc7ba2cad8850035b9d182/widget.json",
+        "./widgets/63bf356bcad8850035b9d1f3/widget.json"
     ]
 }

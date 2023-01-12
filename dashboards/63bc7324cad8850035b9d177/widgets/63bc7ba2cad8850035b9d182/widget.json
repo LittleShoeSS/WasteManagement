@@ -388,8 +388,8 @@
             }
         }
     },
-    "subtype": "column/classic",
+    "subtype": "bar/classic",
     "tickLevel": "month",
     "title": "Consoles Used 2",
-    "type": "chart/column"
+    "type": "chart/bar"
 }
