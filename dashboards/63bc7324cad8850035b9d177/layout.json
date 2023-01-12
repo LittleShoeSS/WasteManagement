@@ -18,7 +18,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 558.5,
+                                "pxlWidth": 835.5,
                                 "stretchable": false,
                                 "width": 50
                             },
@@ -35,24 +35,49 @@
                                     }
                                 ],
                                 "index": 1,
-                                "pxlWidth": 558.5,
+                                "pxlWidth": 835.5,
                                 "stretchable": false,
                                 "width": 50
                             }
                         ]
+<<<<<<< HEAD
+=======
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "autoHeight": "750px",
+                                        "defaultWidth": 512,
+                                        "height": "750px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 128,
+                                        "minWidth": 128,
+                                        "widgetid": "63bf356bcad8850035b9d1f3"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1671,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+>>>>>>> parent of e53583b (Added Weights)
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 1117,
+                "pxlWidth": 1671,
                 "width": 100
             }
         ],
         "container": {
-            "sizzle1673547210908": {
+            "sizzle1673468985161": {
                 "undefined": {
                     "parentNode": [
-                        79.77621594143989,
-                        25,
+                        1520.4568697075504,
+                        27,
                         true
                     ]
                 }
