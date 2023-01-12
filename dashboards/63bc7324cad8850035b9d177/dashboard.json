@@ -1,0 +1,43 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aWasteIAAaManagement",
+        "fullname": "localhost/Waste Management",
+        "id": "localhost_aWasteIAAaManagement",
+        "live": false,
+        "title": "Waste Management"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "63bc7324cad8850035b9d177",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "isSystem": true,
+            "name": "Vivid",
+            "sortOrder": 10,
+            "systemDefault": true
+        }
+    },
+    "title": "Waste Management",
+    "widgets": [
+        "./widgets/63bc73b9cad8850035b9d179/widget.json",
+        "./widgets/63bc7ba2cad8850035b9d182/widget.json",
+        "./widgets/63bf356bcad8850035b9d1f3/widget.json"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "63bc73b9cad8850035b9d179"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 835.5,
+                                "stretchable": false,
+                                "width": 50
+                            },
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "63bc7ba2cad8850035b9d182"
+                                    }
+                                ],
+                                "index": 1,
+                                "pxlWidth": 835.5,
+                                "stretchable": false,
+                                "width": 50
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "autoHeight": "750px",
+                                        "defaultWidth": 512,
+                                        "height": "750px",
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 128,
+                                        "minWidth": 128,
+                                        "widgetid": "63bf356bcad8850035b9d1f3"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1671,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    }
+                ],
+                "index": 0,
+                "pxlWidth": 1671,
+                "width": 100
+            }
+        ],
+        "container": {
+            "sizzle1673468985161": {
+                "undefined": {
+                    "parentNode": [
+                        1520.4568697075504,
+                        27,
+                        true
+                    ]
+                }
+            }
+        },
+        "instanceid": "B4089-68A9-30",
+        "type": "columnar"
+    }
+}

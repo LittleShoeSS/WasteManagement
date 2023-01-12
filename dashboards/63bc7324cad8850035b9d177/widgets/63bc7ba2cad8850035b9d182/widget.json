@@ -1,0 +1,235 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "continuousDates": false,
+    "dashboardid": "63bc7324cad8850035b9d177",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aWasteIAAaManagement",
+        "fullname": "localhost/Waste Management",
+        "id": "localhost_aWasteIAAaManagement",
+        "live": false,
+        "title": "Waste Management"
+    },
+    "desc": null,
+    "hasExcessiveSeries": false,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[UK Waste.Month (Calendar)]_months",
+                            "index": 0
+                        },
+                        "format": {
+                            "mask": {
+                                "dateAndTime": "MM/dd/y HH:mm",
+                                "days": "shortDate",
+                                "isdefault": true,
+                                "minutes": "HH:mm",
+                                "months": "MM/yyyy",
+                                "quarters": "yyyy Q",
+                                "weeks": "ww yyyy",
+                                "years": "yyyy"
+                            }
+                        },
+                        "hierarchies": [
+                            "calendar",
+                            "calendar - weeks"
+                        ],
+                        "instanceid": "22596-F50B-12",
+                        "jaql": {
+                            "column": "Month",
+                            "datatype": "datetime",
+                            "dim": "[UK Waste.Month (Calendar)]",
+                            "level": "months",
+                            "merged": true,
+                            "table": "UK Waste",
+                            "title": "Months in Month"
+                        }
+                    }
+                ],
+                "name": "categories"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "color": "#d39a47",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "F8BCB-F94C-7F",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Consoles",
+                            "datatype": "numeric",
+                            "dim": "[UK Waste.Consoles]",
+                            "table": "UK Waste",
+                            "title": "Total Consoles"
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "break by"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "nullAsZero": false,
+    "oid": "63bc7ba2cad8850035b9d182",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+            "max": null,
+            "min": null
+        },
+        "selector": true,
+        "triggersDomready": true
+    },
+    "prevSortObjects": [
+    ],
+    "realTimeRefreshing": false,
+    "style": {
+        "dataLimits": {
+            "categoriesCapacity": 100000,
+            "seriesCapacity": 50
+        },
+        "legend": {
+            "enabled": true,
+            "position": "bottom"
+        },
+        "lineWidth": {
+            "width": "bold"
+        },
+        "markers": {
+            "enabled": false,
+            "fill": "filled",
+            "size": "small"
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "months_in_month",
+                    "plural": "Months in Month",
+                    "singular": "Months in Month",
+                    "title": "Months in Month"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "navigator": {
+            "enabled": false
+        },
+        "seriesLabels": {
+            "enabled": true,
+            "labels": {
+                "enabled": false,
+                "stacked": false,
+                "stackedPercentage": false,
+                "types": {
+                    "count": false,
+                    "percentage": false,
+                    "relative": false,
+                    "totals": false
+                }
+            },
+            "rotation": 0
+        },
+        "xAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "isIntervalEnabled": false,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "ticks": true,
+            "title": {
+                "enabled": false
+            },
+            "x2Title": {
+                "enabled": false
+            }
+        },
+        "y2Axis": {
+            "enabled": true,
+            "gridLines": false,
+            "hideMinMax": false,
+            "inactive": true,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        },
+        "yAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "hideMinMax": false,
+            "inactive": false,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "min": 280,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        }
+    },
+    "subtype": "column/classic",
+    "tickLevel": "month",
+    "title": "Consoles Used 2",
+    "type": "chart/column"
+}
