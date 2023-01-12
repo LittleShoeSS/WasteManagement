@@ -139,6 +139,11 @@
                             "title": "Total Weight2"
                         },
                         "panel": "measures"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 343e1ea (Pre commit before checking Git)
                     },
                     {
                         "field": {
@@ -199,6 +204,13 @@
                             "title": "Total Weight4"
                         },
                         "panel": "measures"
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 8597da5 (Back to column)
+=======
+>>>>>>> parent of 8597da5 (Back to column)
+>>>>>>> parent of 343e1ea (Pre commit before checking Git)
                     }
                 ],
                 "name": "values"
@@ -239,7 +251,17 @@
             "rows": true,
             "totals": false
         },
+<<<<<<< HEAD
         "columnsGrandTotal": true,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "columnsGrandTotal": true,
+=======
+>>>>>>> parent of 8597da5 (Back to column)
+=======
+>>>>>>> parent of 8597da5 (Back to column)
+>>>>>>> parent of 343e1ea (Pre commit before checking Git)
         "narration": {
             "aggregation": "sum",
             "display": "above",
@@ -256,7 +278,19 @@
             "up_sentiment": "good",
             "verbosity": "medium"
         },
+<<<<<<< HEAD
         "pageSize": 10,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "pageSize": 10,
+=======
+        "pageSize": 25,
+>>>>>>> parent of 8597da5 (Back to column)
+=======
+        "pageSize": 25,
+>>>>>>> parent of 8597da5 (Back to column)
+>>>>>>> parent of 343e1ea (Pre commit before checking Git)
         "rowsGrandTotal": true,
         "scroll": false
     },
