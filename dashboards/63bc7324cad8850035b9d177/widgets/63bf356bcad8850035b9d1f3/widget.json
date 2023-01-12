@@ -140,6 +140,7 @@
                         },
                         "panel": "measures"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     },
                     {
                         "field": {
@@ -202,6 +203,8 @@
                         "panel": "measures"
 =======
 >>>>>>> parent of 8597da5 (Back to column)
+=======
+>>>>>>> parent of 8597da5 (Back to column)
                     }
                 ],
                 "name": "values"
@@ -243,7 +246,10 @@
             "totals": false
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         "columnsGrandTotal": true,
+=======
+>>>>>>> parent of 8597da5 (Back to column)
 =======
 >>>>>>> parent of 8597da5 (Back to column)
         "narration": {
@@ -263,7 +269,11 @@
             "verbosity": "medium"
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         "pageSize": 10,
+=======
+        "pageSize": 25,
+>>>>>>> parent of 8597da5 (Back to column)
 =======
         "pageSize": 25,
 >>>>>>> parent of 8597da5 (Back to column)
