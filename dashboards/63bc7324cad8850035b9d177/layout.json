@@ -40,28 +40,6 @@
                                 "width": 50
                             }
                         ]
-                    },
-                    {
-                        "subcells": [
-                            {
-                                "elements": [
-                                    {
-                                        "autoHeight": "360px",
-                                        "defaultWidth": 512,
-                                        "height": "360px",
-                                        "maxHeight": 2048,
-                                        "maxWidth": 2048,
-                                        "minHeight": 128,
-                                        "minWidth": 128,
-                                        "widgetid": "63bf356bcad8850035b9d1f3"
-                                    }
-                                ],
-                                "index": 0,
-                                "pxlWidth": 1117,
-                                "stretchable": false,
-                                "width": 100
-                            }
-                        ]
                     }
                 ],
                 "index": 0,
