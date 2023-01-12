@@ -18,7 +18,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 835.5,
+                                "pxlWidth": 558.5,
                                 "stretchable": false,
                                 "width": 50
                             },
@@ -35,7 +35,7 @@
                                     }
                                 ],
                                 "index": 1,
-                                "pxlWidth": 835.5,
+                                "pxlWidth": 558.5,
                                 "stretchable": false,
                                 "width": 50
                             }
@@ -46,9 +46,9 @@
                             {
                                 "elements": [
                                     {
-                                        "autoHeight": "750px",
+                                        "autoHeight": "360px",
                                         "defaultWidth": 512,
-                                        "height": "750px",
+                                        "height": "360px",
                                         "maxHeight": 2048,
                                         "maxWidth": 2048,
                                         "minHeight": 128,
@@ -57,7 +57,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 1671,
+                                "pxlWidth": 1117,
                                 "stretchable": false,
                                 "width": 100
                             }
@@ -65,16 +65,16 @@
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 1671,
+                "pxlWidth": 1117,
                 "width": 100
             }
         ],
         "container": {
-            "sizzle1673468985161": {
+            "sizzle1673547210908": {
                 "undefined": {
                     "parentNode": [
-                        1520.4568697075504,
-                        27,
+                        79.77621594143989,
+                        25,
                         true
                     ]
                 }

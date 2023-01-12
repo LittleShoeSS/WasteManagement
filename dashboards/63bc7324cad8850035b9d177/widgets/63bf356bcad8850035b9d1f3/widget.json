@@ -139,6 +139,66 @@
                             "title": "Total Weight2"
                         },
                         "panel": "measures"
+                    },
+                    {
+                        "field": {
+                            "id": "[february-2018-15.Weight3]_sum",
+                            "index": 3
+                        },
+                        "format": {
+                            "color": {
+                                "color": "transparent",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "129D7-DD38-82",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Weight3",
+                            "datatype": "numeric",
+                            "dim": "[february-2018-15.Weight3]",
+                            "table": "february-2018-15",
+                            "title": "Total Weight3"
+                        },
+                        "panel": "measures"
+                    },
+                    {
+                        "field": {
+                            "id": "[february-2018-15.Weight4]_sum",
+                            "index": 4
+                        },
+                        "format": {
+                            "color": {
+                                "color": "transparent",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "B8944-8E01-E4",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Weight4",
+                            "datatype": "numeric",
+                            "dim": "[february-2018-15.Weight4]",
+                            "table": "february-2018-15",
+                            "title": "Total Weight4"
+                        },
+                        "panel": "measures"
                     }
                 ],
                 "name": "values"
@@ -179,6 +239,7 @@
             "rows": true,
             "totals": false
         },
+        "columnsGrandTotal": true,
         "narration": {
             "aggregation": "sum",
             "display": "above",
@@ -195,7 +256,7 @@
             "up_sentiment": "good",
             "verbosity": "medium"
         },
-        "pageSize": 25,
+        "pageSize": 10,
         "rowsGrandTotal": true,
         "scroll": false
     },
