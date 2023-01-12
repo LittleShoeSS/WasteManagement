@@ -94,14 +94,14 @@
                         }
                     }
                 ],
-                "name": "categories"
+                "name": "x-axis"
             },
             {
                 "items": [
                     {
                         "format": {
                             "color": {
-                                "color": "#00adc1",
+                                "color": "#d39a47",
                                 "type": "color"
                             },
                             "mask": {
@@ -388,8 +388,8 @@
             }
         }
     },
-    "subtype": "bar/classic",
+    "subtype": "line/basic",
     "tickLevel": "month",
     "title": "Consoles Used 2",
-    "type": "chart/bar"
+    "type": "chart/line"
 }

@@ -40,44 +40,15 @@
                                 "width": 50
                             }
                         ]
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 8597da5 (Back to column)
-=======
->>>>>>> parent of 8597da5 (Back to column)
-=======
->>>>>>> parent of 90ac1b1 (Final Commit to be sure)
                     },
                     {
                         "subcells": [
                             {
                                 "elements": [
                                     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                                         "autoHeight": "360px",
                                         "defaultWidth": 512,
                                         "height": "360px",
-=======
-                                        "autoHeight": "750px",
-                                        "defaultWidth": 512,
-                                        "height": "750px",
->>>>>>> parent of 8597da5 (Back to column)
-=======
-                                        "autoHeight": "750px",
-                                        "defaultWidth": 512,
-                                        "height": "750px",
->>>>>>> parent of 8597da5 (Back to column)
-=======
-                                        "autoHeight": "360px",
-                                        "defaultWidth": 512,
-                                        "height": "360px",
->>>>>>> parent of 90ac1b1 (Final Commit to be sure)
                                         "maxHeight": 2048,
                                         "maxWidth": 2048,
                                         "minHeight": 128,
@@ -86,34 +57,11 @@
                                     }
                                 ],
                                 "index": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                                 "pxlWidth": 1117,
-=======
-                                "pxlWidth": 1671,
->>>>>>> parent of 8597da5 (Back to column)
-=======
-                                "pxlWidth": 1671,
->>>>>>> parent of 8597da5 (Back to column)
-=======
-                                "pxlWidth": 1117,
->>>>>>> parent of 90ac1b1 (Final Commit to be sure)
                                 "stretchable": false,
                                 "width": 100
                             }
                         ]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of e53583b (Added Weights)
->>>>>>> parent of 8597da5 (Back to column)
-=======
->>>>>>> parent of e53583b (Added Weights)
->>>>>>> parent of 8597da5 (Back to column)
-=======
->>>>>>> parent of 90ac1b1 (Final Commit to be sure)
                     }
                 ],
                 "index": 0,
