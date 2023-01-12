@@ -18,7 +18,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 558.5,
+                                "pxlWidth": 835.5,
                                 "stretchable": false,
                                 "width": 50
                             },
@@ -35,20 +35,31 @@
                                     }
                                 ],
                                 "index": 1,
-                                "pxlWidth": 558.5,
+                                "pxlWidth": 835.5,
                                 "stretchable": false,
                                 "width": 50
                             }
                         ]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8597da5 (Back to column)
                     },
                     {
                         "subcells": [
                             {
                                 "elements": [
                                     {
+<<<<<<< HEAD
                                         "autoHeight": "360px",
                                         "defaultWidth": 512,
                                         "height": "360px",
+=======
+                                        "autoHeight": "750px",
+                                        "defaultWidth": 512,
+                                        "height": "750px",
+>>>>>>> parent of 8597da5 (Back to column)
                                         "maxHeight": 2048,
                                         "maxWidth": 2048,
                                         "minHeight": 128,
@@ -57,24 +68,32 @@
                                     }
                                 ],
                                 "index": 0,
+<<<<<<< HEAD
                                 "pxlWidth": 1117,
+=======
+                                "pxlWidth": 1671,
+>>>>>>> parent of 8597da5 (Back to column)
                                 "stretchable": false,
                                 "width": 100
                             }
                         ]
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e53583b (Added Weights)
+>>>>>>> parent of 8597da5 (Back to column)
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 1117,
+                "pxlWidth": 1671,
                 "width": 100
             }
         ],
         "container": {
-            "sizzle1673547210908": {
+            "sizzle1673468985161": {
                 "undefined": {
                     "parentNode": [
-                        79.77621594143989,
-                        25,
+                        1520.4568697075504,
+                        27,
                         true
                     ]
                 }
