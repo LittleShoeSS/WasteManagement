@@ -233,7 +233,7 @@
     "style": {
         "automaticHeight": true,
         "colors": {
-            "columns": false,
+            "columns": true,
             "headers": false,
             "members": false,
             "rows": true,
