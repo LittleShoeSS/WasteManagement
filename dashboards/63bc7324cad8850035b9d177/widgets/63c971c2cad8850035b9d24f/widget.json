@@ -1,0 +1,203 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "continuousDates": false,
+    "dashboardid": "63bc7324cad8850035b9d177",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aWasteIAAaManagement",
+        "fullname": "LocalHost/Waste Management",
+        "id": "aLOCALHOST_aWASTEIAAaMANAGEMENT",
+        "title": "Waste Management"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "instanceid": "9D7A4-9EAB-66",
+                        "jaql": {
+                            "column": "Client",
+                            "datatype": "text",
+                            "dim": "[february-2018-15.Client]",
+                            "merged": true,
+                            "table": "february-2018-15",
+                            "title": "Client"
+                        }
+                    },
+                    {
+                        "instanceid": "35413-2721-D4",
+                        "jaql": {
+                            "column": "Consoles in place",
+                            "datatype": "text",
+                            "dim": "[february-2018-15.Consoles in place]",
+                            "merged": true,
+                            "table": "february-2018-15",
+                            "title": "Consoles in place"
+                        }
+                    },
+                    {
+                        "instanceid": "7E539-904C-C0",
+                        "jaql": {
+                            "column": "Type",
+                            "datatype": "text",
+                            "dim": "[february-2018-15.Type]",
+                            "merged": true,
+                            "table": "february-2018-15",
+                            "title": "Type"
+                        }
+                    }
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "nullAsZero": false,
+    "oid": "63c971c2cad8850035b9d24f",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "dataTypes": {
+            "dimensions": true,
+            "filter": false,
+            "measures": false
+        },
+        "disallowSelector": true,
+        "selector": false,
+        "supportsHierarchies": false,
+        "triggersDomready": true
+    },
+    "prevSortObjects": [
+    ],
+    "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+    },
+    "realTimeRefreshing": false,
+    "style": {
+        "automaticHeight": true,
+        "borders/all": true,
+        "borders/columns": false,
+        "borders/grid": false,
+        "borders/rows": false,
+        "colors/columns": false,
+        "colors/headers": true,
+        "colors/rows": true,
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "client",
+                    "plural": "Client",
+                    "singular": "Client",
+                    "title": "Client"
+                },
+                {
+                    "id": "consoles_in_place",
+                    "plural": "Consoles in place",
+                    "singular": "Consoles in place",
+                    "title": "Consoles in place"
+                },
+                {
+                    "id": "type",
+                    "plural": "Type",
+                    "singular": "Type",
+                    "title": "Type"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false,
+        "tableState": {
+            "childRows": [
+            ],
+            "colResize": {
+                "columns": [
+                    "229.547px",
+                    "124.453px"
+                ],
+                "tableSize": 354
+            },
+            "columns": [
+                {
+                    "search": {
+                        "caseInsensitive": true,
+                        "regex": false,
+                        "search": "",
+                        "smart": true
+                    },
+                    "visible": true
+                },
+                {
+                    "search": {
+                        "caseInsensitive": true,
+                        "regex": false,
+                        "search": "",
+                        "smart": true
+                    },
+                    "visible": true
+                }
+            ],
+            "headers": [
+                {
+                    "datatype": "text",
+                    "dim": "[february-2018-15.Client]",
+                    "title": "Client"
+                },
+                {
+                    "datatype": "text",
+                    "dim": "[february-2018-15.Consoles in place]",
+                    "title": "Consoles in place"
+                }
+            ],
+            "iScroller": 0,
+            "iScrollerTopRow": 0,
+            "length": 25,
+            "order": [
+                [
+                    0,
+                    "asc"
+                ]
+            ],
+            "search": {
+                "caseInsensitive": true,
+                "regex": false,
+                "search": "",
+                "smart": true
+            },
+            "start": 0,
+            "time": 1674146166059
+        },
+        "width/content": false,
+        "width/window": true,
+        "wordwrap/headers": true,
+        "wordwrap/rows": false
+    },
+    "subtype": "tablewidget",
+    "title": "Waste Client Info",
+    "type": "tablewidget"
+}

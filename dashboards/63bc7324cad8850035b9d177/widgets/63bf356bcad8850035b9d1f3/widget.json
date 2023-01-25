@@ -139,7 +139,6 @@
                             "title": "Total Weight2"
                         },
                         "panel": "measures"
-<<<<<<< HEAD
                     },
                     {
                         "field": {
@@ -200,8 +199,6 @@
                             "title": "Total Weight4"
                         },
                         "panel": "measures"
-=======
->>>>>>> parent of 8597da5 (Back to column)
                     }
                 ],
                 "name": "values"
@@ -242,10 +239,7 @@
             "rows": true,
             "totals": false
         },
-<<<<<<< HEAD
         "columnsGrandTotal": true,
-=======
->>>>>>> parent of 8597da5 (Back to column)
         "narration": {
             "aggregation": "sum",
             "display": "above",
@@ -262,11 +256,7 @@
             "up_sentiment": "good",
             "verbosity": "medium"
         },
-<<<<<<< HEAD
         "pageSize": 10,
-=======
-        "pageSize": 25,
->>>>>>> parent of 8597da5 (Back to column)
         "rowsGrandTotal": true,
         "scroll": false
     },
